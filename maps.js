@@ -31,6 +31,7 @@ map.forEach(stockLogger);
 console.log(map.has('eggs'))
 console.log(map.has('butter'))
 
+console.log(...map)
 
 for (const key of map.keys()) {
   console.log(key)
