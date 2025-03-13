@@ -31,8 +31,19 @@ map.forEach(stockLogger);
 console.log(map.has('eggs'))
 console.log(map.has('butter'))
 
+
+
 console.log(...map)
 
 for (const key of map.keys()) {
   console.log(key)
 }
+
+const map2 = new Map([
+  ['Phone', 35],
+  ['Computer', 60],
+  ['laptop', 23]
+])
+
+console.log(map2);
+console.log(map2.size);
